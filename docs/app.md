@@ -45,4 +45,5 @@ Vou retornar em uma api rest para que consiga alimentar um frontend
         outro episódio
     }
 ]
+// Na URL do cover e do link existe um padrão, basta usar apenas o ID. 
 ```
