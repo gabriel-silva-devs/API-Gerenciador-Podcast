@@ -1,0 +1,24 @@
+import * as http from "http";
+import {
+  getFilterEpisodes,
+  getListEpisodes,
+} from "./controllers/podcasts-controller";
+import { Routes } from "./routes/routes";
+import { HttpMethod } from "./utils/http-methods";
+
+export const app = async (
+  request: http.IncomingMessage,
+  response: http.ServerResponse,
+) => {
+  //QueryString = Usar um parâmetro na URL
+  const [baseUrl, queryString] = request.url?.split("?") ?? ["", ""];
+
+  //Busca todos os episodios
+  if (request.method === HttpMethod.GET && baseUrl === Routes.LIST) {
+    await getListEpisodes(request, response);
+  }
+  //Busca apenas os episodios filtrados
+  if (request.method === HttpMethod.GET && baseUrl === Routes.FILTER) {
+    await getFilterEpisodes(request, response);
+  }
+};
