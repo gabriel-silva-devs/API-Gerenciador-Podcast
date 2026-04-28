@@ -10,8 +10,8 @@ export const app = async (
   request: http.IncomingMessage,
   response: http.ServerResponse,
 ) => {
-  //QueryString = Usar um parâmetro na URL
-  const [baseUrl, queryString] = request.url?.split("?") ?? ["", ""];
+  
+  const baseUrl = request.url?.split("?")[0];
 
   //Busca todos os episodios
   if (request.method === HttpMethod.GET && baseUrl === Routes.LIST) {

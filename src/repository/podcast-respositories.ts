@@ -1,9 +1,8 @@
 import * as fileSystem from "fs";
 import path from "path";
 import { PodcastModel } from "../models/podcast-model"
-import { json } from "stream/consumers";
 
-const pathData = path.join(__dirname,"../repository/podcasts.json");//Pegar dinamicamente
+const pathData = path.join(__dirname,"../repository/podcasts.json");
 
 export const repositoryPodcast = async (podcastName?:String): Promise<PodcastModel[]> => {
     
