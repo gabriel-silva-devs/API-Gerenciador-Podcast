@@ -7,14 +7,8 @@
 
 ## ⚙️ Funcionalidades
 
-- Listar episódios organizados por categorias:
-  - Saúde
-  - Fitness
-  - Mentalidade
-  - Humor
-  - Jogos
 - Filtrar episódios por nome do podcast
-
+- Puxar todos os episódios de podcast
 ---
 
 ## 🛠️ Implementação
@@ -50,13 +44,13 @@ As propriedades `cover` e `link` seguem um padrão baseado no `videoID`.
 ### 📥 Listar episódios
 
 ```http
-GET /episodes
+GET api/list
 ```
 
 ### 🔎 Filtrar episódios por nome
 
 ```http
-GET /episodes?p=nome-do-podcast
+GET api/filter?p=nome-do-podcast
 ```
 
 ---
