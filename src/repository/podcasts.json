@@ -5,18 +5,78 @@
     "videoID": "4c7pbOxYn_A",
     "cover": "https://i.ytimg.com/vi/4c7pbOxYn_A/maxresdefault.jpg",
     "link": "https://www.youtube.com/watch?v=4c7pbOxYn_A",
-    "category": ["ti"]
+    "category": ["tecnologia", "mentalidade"]
   },
   {
-    "podcastName": "Gabriel-Silva",
-    "episode": "202"
+    "podcastName": "Flow",
+    "episode": "NANDO MOURA - Flow #450",
+    "videoID": "abcd1234xyz",
+    "cover": "https://i.ytimg.com/vi/abcd1234xyz/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=abcd1234xyz",
+    "category": ["humor", "opinião"]
   },
   {
-    "podcastName": "Fala-Comigo",
-    "episode": "FALA COMIGO - #588",
-    "videoID": "4c7pbOxYn_A",
-    "cover": "https://i.ytimg.com/vi/4c7pbOxYn_A/maxresdefault.jpg",
-    "link": "https://www.youtube.com/watch?v=4c7pbOxYn_A",
-    "category": ["ti"]
+    "podcastName": "Podpah",
+    "episode": "NEYMAR JR - Podpah #390",
+    "videoID": "neymar390",
+    "cover": "https://i.ytimg.com/vi/neymar390/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=neymar390",
+    "category": ["esporte", "entretenimento"]
+  },
+  {
+    "podcastName": "Podpah",
+    "episode": "MC CABELINHO - Podpah #250",
+    "videoID": "mccabelinho250",
+    "cover": "https://i.ytimg.com/vi/mccabelinho250/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=mccabelinho250",
+    "category": ["música", "cultura"]
+  },
+  {
+    "podcastName": "Inteligência Ltda",
+    "episode": "SERGIO SACANI - Inteligência Ltda #700",
+    "videoID": "sacani700",
+    "cover": "https://i.ytimg.com/vi/sacani700/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=sacani700",
+    "category": ["ciência", "tecnologia"]
+  },
+  {
+    "podcastName": "Inteligência Ltda",
+    "episode": "PONDÉ - Inteligência Ltda #620",
+    "videoID": "ponde620",
+    "cover": "https://i.ytimg.com/vi/ponde620/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=ponde620",
+    "category": ["filosofia", "mentalidade"]
+  },
+  {
+    "podcastName": "PrimoCast",
+    "episode": "Como ficar rico - PrimoCast #180",
+    "videoID": "primocast180",
+    "cover": "https://i.ytimg.com/vi/primocast180/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=primocast180",
+    "category": ["finanças", "negócios"]
+  },
+  {
+    "podcastName": "PrimoCast",
+    "episode": "Investimentos para iniciantes - PrimoCast #95",
+    "videoID": "primocast95",
+    "cover": "https://i.ytimg.com/vi/primocast95/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=primocast95",
+    "category": ["finanças", "educação"]
+  },
+  {
+    "podcastName": "Café com Bíblia",
+    "episode": "Fé e propósito - Episódio 12",
+    "videoID": "feproposito12",
+    "cover": "https://i.ytimg.com/vi/feproposito12/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=feproposito12",
+    "category": ["espiritualidade", "mentalidade"]
+  },
+  {
+    "podcastName": "Flow Games",
+    "episode": "GTA VI expectativas - Flow Games #210",
+    "videoID": "gtavi210",
+    "cover": "https://i.ytimg.com/vi/gtavi210/maxresdefault.jpg",
+    "link": "https://www.youtube.com/watch?v=gtavi210",
+    "category": ["jogos", "tecnologia"]
   }
 ]
